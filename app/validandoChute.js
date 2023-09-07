@@ -35,7 +35,7 @@ export function chuteInvalido(numero) {
   return Number.isNaN(numero);
 }
 
-function valorMaiorMenorPermitido(numero) {
+export function valorMaiorMenorPermitido(numero) {
   return numero > maiorValor || numero < menorValor;
 }
 

@@ -8,7 +8,7 @@ elementoMenorValor.innerHTML = menorValor;
 elementoMaiorValor.innerHTML = maiorValor;
 
 export function gerarNumeroAleatorio() {
-  return parseInt(Math.random() * maiorValor + 1);
+  return parseInt(Math.random() * maiorValor + 1);''
 }
 
 console.log(numeroSecreto);
